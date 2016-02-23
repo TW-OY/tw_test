@@ -3,17 +3,20 @@ function FizzBuzzWhizz(input_data, test_number){
         return 'Fizz';
     }
     else if(test_number % input_data[0] === 0){
-        if(test_number % input_data[1] === 0){
-            return 'FizzBuzz';
-        }
-        if(test_number % input_data[2] === 0){
-            return 'FizzWhizz';
-        }
+            if(test_number % input_data[1] === 0){
+                if(test_number % input_data[2] === 0){
+                    return 'FizzBuzzWhizz';
+                }
+                return 'FizzBuzz';
+            }
+            if(test_number % input_data[2] === 0){
+                return 'FizzWhizz';
+            }
         return 'Fizz';
     }
     else if(test_number % input_data[1] === 0){
-    if(test_number % input_data[2] === 0){
-        return 'BuzzWhizz';
+        if(test_number % input_data[2] === 0){
+            return 'BuzzWhizz';
     }
         return 'Buzz';
     }
