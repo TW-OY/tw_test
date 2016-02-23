@@ -40,6 +40,15 @@ function getInputData(){
 }
 
 
+function runInstance(){
+    input_data = getInputData();
+    var count = 1;
+    while(count <= 100){
+        console.log(FizzBuzzWhizz(input_data, count));
+        count += 1;
+    }
+}
+
 
 
 
