@@ -2,208 +2,207 @@ describe('FizzBuzzWhizz_test', function() {
 
 
     it('test_data', function() {
-        var result = FizzBuzzWhizz(1);
+        var result = FizzBuzzWhizz(3, 5, 7,1);
         expect(result).toEqual(1);
     });
-
     it('test_data', function() {
-        var result = FizzBuzzWhizz(2);
+        var result = FizzBuzzWhizz(3, 5, 7,2);
         expect(result).toEqual(2);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(3);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,3);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(4);
+        var result = FizzBuzzWhizz(3, 5, 7,4);
         expect(result).toEqual(4);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(5);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,5);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(6);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,6);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(7);
-        expect(result).toEqual(Whizz);
+        var result = FizzBuzzWhizz(3, 5, 7,7);
+        expect(result).toEqual('Whizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(8);
+        var result = FizzBuzzWhizz(3, 5, 7,8);
         expect(result).toEqual(8);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(9);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,9);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(10);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,10);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(11);
+        var result = FizzBuzzWhizz(3, 5, 7,11);
         expect(result).toEqual(11);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(12);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,12);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(13);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,13);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(14);
-        expect(result).toEqual(Whizz);
+        var result = FizzBuzzWhizz(3, 5, 7,14);
+        expect(result).toEqual('Whizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(15);
-        expect(result).toEqual(FizzBuzz);
+        var result = FizzBuzzWhizz(3, 5, 7,15);
+        expect(result).toEqual('FizzBuzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(21);
-        expect(result).toEqual(FizzWhizz);
+        var result = FizzBuzzWhizz(3, 5, 7,21);
+        expect(result).toEqual('FizzWhizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(23);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,23);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(25);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,25);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(30);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,30);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(35);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,35);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(37);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,37);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(42);
-        expect(result).toEqual(FizzWhizz);
+        var result = FizzBuzzWhizz(3, 5, 7,42);
+        expect(result).toEqual('FizzWhizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(43);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,43);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(45);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,45);
+        expect(result).toEqual('FizzBuzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(47);
+        var result = FizzBuzzWhizz(3, 5, 7,47);
         expect(result).toEqual(47);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(48);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,48);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(49);
-        expect(result).toEqual(Whizz);
+        var result = FizzBuzzWhizz(3, 5, 7,49);
+        expect(result).toEqual('Whizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(50);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,50);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(53);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,53);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(55);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,55);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(56);
-        expect(result).toEqual(Whizz);
+        var result = FizzBuzzWhizz(3, 5, 7,56);
+        expect(result).toEqual('Whizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(57);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,57);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(60);
-        expect(result).toEqual(FizzBuzz);
+        var result = FizzBuzzWhizz(3, 5, 7,60);
+        expect(result).toEqual('FizzBuzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(63);
-        expect(result).toEqual(Whizz);
+        var result = FizzBuzzWhizz(3, 5, 7,63);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(65);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,65);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(66);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,66);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(69);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,69);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(70);
-        expect(result).toEqual(BuzzWhizz);
+        var result = FizzBuzzWhizz(3, 5, 7,70);
+        expect(result).toEqual('BuzzWhizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(71);
+        var result = FizzBuzzWhizz(3, 5, 7,71);
         expect(result).toEqual(71);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(72);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,72);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(73);
+        var result = FizzBuzzWhizz(3, 5, 7,73);
         expect(result).toEqual(73);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(74);
+        var result = FizzBuzzWhizz(3, 5, 7,74);
         expect(result).toEqual(74);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(75);
-        expect(result).toEqual(FizzBuzz);
+        var result = FizzBuzzWhizz(3, 5, 7,75);
+        expect(result).toEqual('FizzBuzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(80);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,80);
+        expect(result).toEqual('Buzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(81);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,81);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(82);
+        var result = FizzBuzzWhizz(3, 5, 7,82);
         expect(result).toEqual(82);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(84);
-        expect(result).toEqual(FizzWhizz);
+        var result = FizzBuzzWhizz(3, 5, 7,84);
+        expect(result).toEqual('FizzWhizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(90);
-        expect(result).toEqual(FizzBuzz);
+        var result = FizzBuzzWhizz(3, 5, 7,90);
+        expect(result).toEqual('FizzBuzz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(93);
-        expect(result).toEqual(Fizz);
+        var result = FizzBuzzWhizz(3, 5, 7,93);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(94);
+        var result = FizzBuzzWhizz(3, 5, 7,94);
         expect(result).toEqual(94);
     });
     it('test_data', function() {
-        var result = FizzBuzzWhizz(100);
-        expect(result).toEqual(Buzz);
+        var result = FizzBuzzWhizz(3, 5, 7,100);
+        expect(result).toEqual('Buzz');
     });
 });

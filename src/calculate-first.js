@@ -1,8 +1,3 @@
-function dataInput(){
-    var raw_input_data = prompt("plz input");
-}
-
-
 function FizzBuzzWhizz(input_data1, input_data2, input_data3, test_number){
     if (test_number % 10 === input_data1 || Math.floor(test_number / 10) === input_data1){
         return 'Fizz';
@@ -29,6 +24,8 @@ function FizzBuzzWhizz(input_data1, input_data2, input_data3, test_number){
         return test_number;
     }
 }
+
+
 
 
 
