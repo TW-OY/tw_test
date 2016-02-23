@@ -1,42 +1,34 @@
-function is_odd(number){
-    if(number % 2 === 0)
-        return true;
-    else
-        return false;
+function dataInput(){
+    var raw_input_data = prompt("plz input");
 }
 
 
-function arr_find_odd_NO_elements(arr){
-    var arr_odd_NO_elements = [];
-    arr.filter(function(item,index){
-        if(!is_odd(index))
-            arr_odd_NO_elements.push(item);
-    });
-    return arr_odd_NO_elements;
+function FizzBuzzWhizz(input_data1, input_data2, input_data3, test_number){
+    if (test_number % 10 === input_data1 || Math.floor(test_number / 10) === input_data1){
+        return 'Fizz';
+    }
+    else if(test_number % input_data1 === 0){
+        if(test_number % input_data2 === 0){
+            return 'FizzBuzz';
+        }
+        if(test_number % input_data3 === 0){
+            return 'FizzWhizz';
+        }
+        return 'Fizz';
+    }
+    else if(test_number % input_data2 === 0){
+    if(test_number % input_data3 === 0){
+        return 'BuzzWhizz';
+    }
+        return 'Buzz';
+    }
+    else if(test_number % input_data3 ===0){
+        return 'Whizz';
+    }
+    else{
+        return test_number;
+    }
 }
 
 
-function arr_find_no_repeat_elements(arr){
-    var hash = {};
-    arr_no_reapeat_elements = [];
-    arr.forEach(function(item){
-        hash[item] = 0;
-    });
-    arr.forEach(function(item){
-        hash[item] += 1;
-    });
-    arr.forEach(function(item){
-        if(hash[item] === 1)
-            arr_no_reapeat_elements.push(item);
-    });
-    return arr_no_reapeat_elements;
-
-}
-
-
-function single_element(arr){
-    var arr_odd_NO_elements = arr_find_odd_NO_elements(arr);
-    var result = arr_find_no_repeat_elements(arr_odd_NO_elements);
-    return result;
-}
 
