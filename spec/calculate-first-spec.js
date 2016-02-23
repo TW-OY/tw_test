@@ -163,7 +163,7 @@ describe('FizzBuzzWhizz_test', function() {
     });
     it('test_data', function() {
         var result = FizzBuzzWhizz(3, 5, 7,73);
-        expect(result).toEqual(73);
+        expect(result).toEqual('Fizz');
     });
     it('test_data', function() {
         var result = FizzBuzzWhizz(3, 5, 7,74);
